@@ -17,7 +17,7 @@ def log_message(update, context):
 def error(update, context):
     print(f"Помилка: {context.error}")
 def main():
-    token = '6191130254:AAH5yCH0XWUYBuSNw-XCaQGX3RDJ4p1v920'
+    token = ''
     updater = Updater(token=token, use_context=True)
     dispatcher = updater.dispatcher
 
